@@ -51,3 +51,15 @@ Use it and be happy!
 
 = V 1.0.0 - 15/09/2014 =
 * Initial release.
+
+== Screenshots == 
+
+1. Gray template
+2. Gray template in post
+3. Black template
+4. Blue template
+5. Red template
+6. Template creator
+7. Fields drag&drop
+8. Form options
+9. Orange template
