@@ -398,7 +398,7 @@ function wpcis_render_slider($slider_id) {
 			echo '</div>';
 
 			//backlink
-			echo '<a href="http://creative-solutions.net/wordpress/creative-image-slider" style="position: absolute;top: -10000;left: -10000;visibility: hidden;">Powered By Creative Image Slider</a>';
+			echo '<a href="http://creative-solutions.net/wordpress/creative-image-slider" style="position: absolute;top: -10000px;left: -10000px;visibility: hidden;">Powered By Creative Image Slider</a>';
 			
 			//print css
 			$cis_overlaycolor_rgb = cis_hex2rgb($cis_overlaycolor);
