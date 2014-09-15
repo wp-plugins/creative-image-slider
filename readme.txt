@@ -54,12 +54,12 @@ Use it and be happy!
 
 == Screenshots == 
 
-1. Gray template
-2. Gray template in post
-3. Black template
-4. Blue template
-5. Red template
-6. Template creator
-7. Fields drag&drop
-8. Form options
-9. Orange template
+1. Creative Popup
+2. Creative Popup
+3. Creative Popup
+4. Slider View
+5. Creative Popup
+6. Flexible Options
+7. Live Preview Wizard
+8. Creative Loading
+9. Front View
