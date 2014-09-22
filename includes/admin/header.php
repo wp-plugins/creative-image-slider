@@ -1,6 +1,6 @@
 <div class="purchase_block">
-	<div class="purchase_block_txt">Get Creative Image Slider Comercial and gain access to <b style="color: rgb(9, 24, 201);">Unlimited Items, Unlimited Sliders, NO CopyRight, Professional Support.</b></div>
-    <a href="http://creative-solutions.net/wordpress/creative-image-slider" id="wpcis_buy_pro" target="_blank">Get Creative Image Slider Comercial</a>
+	<div class="purchase_block_txt">Get Creative Image Slider Commercial and gain access to <b style="color: rgb(9, 24, 201);">Unlimited Items, Unlimited Sliders, NO CopyRight, Professional Support.</b></div>
+    <a href="http://creative-solutions.net/wordpress/creative-image-slider" id="wpcis_buy_pro" target="_blank">Get Creative Image Slider Commercial</a>
 </div>
 <?php 
 $page = isset($_GET['page']) ? $_GET['page'] : 'creativeimageslider';
