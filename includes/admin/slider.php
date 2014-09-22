@@ -19,22 +19,22 @@ $sql = "SELECT COUNT(id) FROM ".$wpdb->prefix."cis_sliders";
 $count_sliders = $wpdb->get_var($sql);
 if($id == 0 && $count_sliders >= 1) {
 	?>
-	<div style="color: rgb(235, 9, 9);font-size: 16px;font-weight: bold;">Please Upgrade to Comercial Version to have more than one Creative Slider!</div>
+	<div style="color: rgb(235, 9, 9);font-size: 16px;font-weight: bold;">Please Upgrade to Commercial Version to have more than one Creative Slider!</div>
 	<div id="cpanel" style="float: left;">
 		<div class="icon" style="float: right;">
-			<a href="http://creative-solutions.net/wordpress/creative-image-slider" target="_blank" title="Buy Comercial version">
+			<a href="http://creative-solutions.net/wordpress/creative-image-slider" target="_blank" title="Buy Commercial version">
 				<table style="width: 100%;height: 100%;text-decoration: none;">
 					<tr>
 						<td align="center" valign="middle">
 							<img src="<?php echo plugins_url( '../images/shopping_cart.png' , __FILE__ );?>" /><br />
-							Buy Comercial Version
+							Buy Commercial Version
 						</td>
 					</tr>
 				</table>
 			</a>
 		</div>
 	</div>
-	<div style="font-style: italic;font-size: 12px;color: #949494;clear: both;">Updrading to Comercial is easy, and will take only <u style="color: rgb(44, 66, 231);font-weight: bold;">5 minutes!</u></div>
+	<div style="font-style: italic;font-size: 12px;color: #949494;clear: both;">Updrading to Commercial is easy, and will take only <u style="color: rgb(44, 66, 231);font-weight: bold;">5 minutes!</u></div>
 	<?php 
 }
 else {
