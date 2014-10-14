@@ -3,8 +3,8 @@
 	position: relative;
 	line-height: 0px;
 	
-	top: 0;
-	left: 0;
+	top: 0px;
+	left: 0px;
 }
 .cis_main_wrapper img, .cis_popup_wrapper img {
  	-webkit-box-sizing: content-box !important;
@@ -415,4 +415,10 @@ cursor: pointer;
 	box-shadow: 1px 1px 3px 1px rgba(5, 0, 0, 0.6);
 	-webkit-box-shadow: 1px 1px 3px 1px rgba(5, 0, 0, 0.6);
 	-moz-box-shadow: 1px 1px 3px 1px rgba(5, 0, 0, 0.6);
+
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
 }
