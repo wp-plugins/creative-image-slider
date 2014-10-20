@@ -6,7 +6,7 @@ $task = isset($_REQUEST['task']) ? $_REQUEST['task'] : '';
 $sql = "SELECT COUNT(id) FROM ".$wpdb->prefix."cis_sliders";
 $count_sliders = $wpdb->get_var($sql);
 
-if($id == 0 && $count_sliders < 10) {
+if($id == 0 && $count_sliders < 1) {
 	$sql = "SELECT MAX(`ordering`) FROM `".$wpdb->prefix."cis_sliders`";
 	$max_order = $wpdb->get_var($sql) + 1;
 
@@ -149,7 +149,7 @@ if($id == 0 && $count_sliders < 10) {
 	else
 		$redirect = "admin.php?page=cis_sliders&error=1";
 }
-else {
+elseif($id != 0) {
 	$q = $wpdb->query( $wpdb->prepare(
 			"
 			UPDATE ".$wpdb->prefix."cis_sliders
@@ -285,6 +285,9 @@ else {
 	}
 	else
 		$redirect = "admin.php?page=cis_sliders&error=1";
+}
+else {
+	$redirect = "admin.php?page=cis_sliders&error=1";
 }
 header("Location: ".$redirect);
 exit();

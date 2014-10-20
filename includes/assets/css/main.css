@@ -3,8 +3,8 @@
 	position: relative;
 	line-height: 0px;
 	
-	top: 0;
-	left: 0;
+	top: 0px;
+	left: 0px;
 }
 .cis_main_wrapper img, .cis_popup_wrapper img {
  	-webkit-box-sizing: content-box !important;
@@ -396,4 +396,29 @@ cursor: pointer;
 }
 .cis_height_auto {
 	height: auto !important;
+}
+
+.cis_popup_animation_ex {
+	width: 14px;
+	height: auto;
+	position: absolute;
+	display: block;
+	z-index: 9999;
+	top: 12px;
+	right: 6px;
+	background: #333;
+	border: solid 1px #818181;
+	padding: 5px;
+	border-radius: 6px;
+	opacity: 0;
+	cursor: pointer;
+	box-shadow: 1px 1px 3px 1px rgba(5, 0, 0, 0.6);
+	-webkit-box-shadow: 1px 1px 3px 1px rgba(5, 0, 0, 0.6);
+	-moz-box-shadow: 1px 1px 3px 1px rgba(5, 0, 0, 0.6);
+
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
 }

@@ -3,9 +3,9 @@
 Plugin Name: Creative Image Slider
 Plugin URI: http://creative-solutions.net/wordpress/creative-image-slider/
 Description: Creative Image Slider is a responsive jQuery image slider with amazing visual effects. It uses horizontal scrolling to make the slider more creative and attractive.
-Author: creative-solutions
+Author: Creative Solutions
 Author URI: http://creative-solutions.net/
-Version: 1.0.0
+Version: 1.0.2
 */
 
 //strat session
@@ -14,8 +14,8 @@ if (session_id() == '') {
 	//check
 }
 global $wpcis_db_version;
-$plugin_version = '1.0.0';
-$wpcis_db_version = '1.0.0';
+$plugin_version = '1.0.2';
+$wpcis_db_version = '1.0.2';
 
 define('WPCIS_PLUGINS_URL', plugins_url());
 define('WPCIS_FOLDER', basename(dirname(__FILE__)));
