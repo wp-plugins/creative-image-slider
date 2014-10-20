@@ -68,13 +68,13 @@ function wpcis_load_items_scripts() {
 
 }
 function wpcis_load_categories_scripts() {
-	wp_enqueue_style('wpgs-styles9', plugin_dir_url( __FILE__ ) . 'css/ui-lightness/jquery-ui-1.10.1.custom.css');
-	wp_enqueue_style('wpcis-styles10', plugin_dir_url( __FILE__ ) . 'css/admin.css');
-	wp_enqueue_style('wpcis-styles11', plugin_dir_url( __FILE__ ) . 'css/options_styles.css');
+	wp_enqueue_style('wpgs-styles1', plugin_dir_url( __FILE__ ) . 'css/ui-lightness/jquery-ui-1.10.1.custom.css');
+	wp_enqueue_style('wpcis-styles2', plugin_dir_url( __FILE__ ) . 'css/admin.css');
+	wp_enqueue_style('wpcis-styles3', plugin_dir_url( __FILE__ ) . 'css/options_styles.css');
 
-	wp_enqueue_script('wpcis-script14', plugin_dir_url( __FILE__ ) . 'js/admin.js', array('jquery'));
-	//wp_enqueue_script('wpcis-script15', plugin_dir_url( __FILE__ ) . 'js/admin.js',array('jquery','jquery-ui-core','jquery-ui-accordion','jquery-ui-tabs','jquery-ui-slider'));
-	wp_enqueue_script('wpcis-script15', plugin_dir_url( __FILE__ ) . 'js/options_functions.js',array('jquery','jquery-ui-core','jquery-ui-sortable', 'jquery-ui-dialog','jquery-ui-tabs'));
+	wp_enqueue_script('wpcis-script1', plugin_dir_url( __FILE__ ) . 'js/admin.js', array('jquery'));
+	//wp_enqueue_script('wpcis-script2', plugin_dir_url( __FILE__ ) . 'js/admin.js',array('jquery','jquery-ui-core','jquery-ui-accordion','jquery-ui-tabs','jquery-ui-slider'));
+	wp_enqueue_script('wpcis-script3', plugin_dir_url( __FILE__ ) . 'js/options_functions.js',array('jquery','jquery-ui-core','jquery-ui-sortable', 'jquery-ui-dialog','jquery-ui-tabs'));
 }
 
 add_action('admin_menu', 'wpcis_add_options_link');

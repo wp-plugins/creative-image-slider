@@ -161,20 +161,6 @@ function cis_get_data($slider_id) {
 	return $results;
 }
 
-function wpcis_make_statistics() {
-	if(!file_exists(ABSPATH.PLUGINDIR.'/creative-image-slider/wpcis.log') and is_writable(ABSPATH.PLUGINDIR.'/creative-image-slider')) {
-		// send domain, for usage statistics 
-		// this will run only once
-
-		$domain = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-		$fh = @fopen('http://creative-solutions.net/make-statistics?ext=cis-wp&domain='.$domain, 'r');
-		@fclose($fh);
-
-		$fh = fopen(ABSPATH.PLUGINDIR.'/creative-image-slider/wpcis.log', 'a');
-		fclose($fh);
-	}
-}
-
 function wpcis_render_slider($slider_id) {
 	global $wpdb;
 	
@@ -187,7 +173,6 @@ function wpcis_render_slider($slider_id) {
 	}
 
 	if(sizeof($cis_options) > 0) {
-			wpcis_make_statistics();
 
 			reset($cis_options);
 			$first_key = key($cis_options);

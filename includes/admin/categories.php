@@ -95,7 +95,7 @@ $rows = $wpdb->get_results($sql);
 			<th nowrap align="center" style="width: 30px;text-align: center;">Order</th>
 			<th nowrap align="center" style="width: 30px;text-align: center;">Status</th>
 			<th nowrap align="left" style="text-align: left;padding-left: 22px;">Name</th>
-			<th nowrap align="center" style="width: 30px;text-align: center;">Id</th>
+			<th nowrap align="center" style="width: 30px;text-align: center;font-weight: normal">Id</th>
 		</tr>
 	</thead>
 <tbody id="wpcis_sortable" table_name="<?php echo $wpdb->prefix;?>cis_categories" reorder_type="reorder">
