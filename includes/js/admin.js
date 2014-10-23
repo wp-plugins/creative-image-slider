@@ -120,6 +120,18 @@ $(document).ready(function() {
 			$('.wpcis_disabled').attr('title','');
 		}
 	};
+
+	// extra checks
+	function wpcis_check_disabled_selection() {
+		var l = $('.wpcis_row_ch:checked').length;
+		var l_cal = parseInt(l) + 3*1;
+		if(l > 5) {
+			$('.wpcis_disabled').addClass('max_length');
+		}
+		else {
+			$('.wpcis_disabled').removeClass('max_length');
+		}
+	};
 	
 	/////////////////////////////////////////////////////Add form//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	$("#wpcis_form_save").click(function() {
