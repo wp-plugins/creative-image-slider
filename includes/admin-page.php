@@ -73,8 +73,7 @@ function wpcis_load_categories_scripts() {
 	wp_enqueue_style('wpcis-styles3', plugin_dir_url( __FILE__ ) . 'css/options_styles.css');
 
 	wp_enqueue_script('wpcis-script1', plugin_dir_url( __FILE__ ) . 'js/admin.js', array('jquery'));
-	//wp_enqueue_script('wpcis-script2', plugin_dir_url( __FILE__ ) . 'js/admin.js',array('jquery','jquery-ui-core','jquery-ui-accordion','jquery-ui-tabs','jquery-ui-slider'));
-	wp_enqueue_script('wpcis-script3', plugin_dir_url( __FILE__ ) . 'js/options_functions.js',array('jquery','jquery-ui-core','jquery-ui-sortable', 'jquery-ui-dialog','jquery-ui-tabs'));
+	wp_enqueue_script('wpcis-script2', plugin_dir_url( __FILE__ ) . 'js/options_functions.js',array('jquery','jquery-ui-core','jquery-ui-sortable', 'jquery-ui-dialog','jquery-ui-tabs'));
 }
 
 add_action('admin_menu', 'wpcis_add_options_link');
