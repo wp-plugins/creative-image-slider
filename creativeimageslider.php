@@ -34,6 +34,9 @@ if(isset($_GET['act']) && $_GET['act'] == 'cis_submit_data') {
 		include('includes/admin/category_submit.php');
 	elseif(isset($_GET['holder']) && $_GET['holder'] == 'creativeajax')
 		include('includes/admin/creativeajax.php');
+
+	elseif(isset($_GET['holder']) && $_GET['holder'] == 'creativextrachecking')
+		include('includes/admin/creativechecks.php');
 	exit();
 }
 include('includes/display-functions.php'); // display content functions
