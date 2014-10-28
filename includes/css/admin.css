@@ -841,5 +841,19 @@ border: 1px solid rgb(214, 197, 152);
 border-radius: 9px;
 }
 
+.wpcis_select_integrated {
+    background-color: #fff !important;
+    text-decoration: none;
+    margin: 115px auto 0;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 3px;
+	display: inline-block;
+    border-color: #bbb !important;
+    color: #464646 !important;
+}
+
 
 
