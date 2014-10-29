@@ -20,6 +20,8 @@
 				include('categories.php');
 			elseif($act == 'new' || $act == 'edit')
 				include('category.php');
+			elseif($act == 'insert')
+				include('category_insert.php');
 		}
 	?>
 </div>
