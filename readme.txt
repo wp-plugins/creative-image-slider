@@ -33,6 +33,10 @@ It is packed with a live-preview wizard to create fantastic sliders in a matter 
 > * Creative arrows. It comes with 45 arrow types, and flexible customization tool!
 > * Very easy to install and configure. You can install it, and make it work in 5 minutes...
 
+### Other Creative Plugins:
+> * [Creative Contact Form](http://creative-solutions.net/wordpress/creative-contact-form/demo) 
+> * [GSpeech](http://creative-solutions.net/wordpress/gspeech)
+
 
 ###IMPORTANT: If you think you found a bug in Creative Image Slider or have any problem or question concerning it, do not hesitate to contact us at [info@creative-solutions.net](mailto:info@creative-solutions.net).
 
