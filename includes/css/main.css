@@ -200,15 +200,15 @@
 	margin: 0 !important;
 	padding: 0 !important;
 	outline: none !important;
-	-moz-box-shadow: none !important;
-	-webkit-box-shadow: none !important;
-	box-shadow: none !important;
+	-moz-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75) !important;
+	-webkit-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75) !important;
+	box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75) !important;
 
 	box-sizing:border-box !important;
 	-moz-box-sizing:border-box !important; /* Firefox */
 	-webkit-box-sizing:border-box !important;
 
-		-webkit-transition:  background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+	-webkit-transition:  background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
 	-moz-transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
 	-o-transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
 	transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
