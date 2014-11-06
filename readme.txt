@@ -34,7 +34,7 @@ It is packed with a live-preview wizard to create fantastic sliders in a matter 
 > * Very easy to install and configure. You can install it, and make it work in 5 minutes...
 
 ### Other Creative Plugins:
-> * [Creative Contact Form](http://creative-solutions.net/wordpress/creative-contact-form/demo) 
+> * [Creative Contact Form](https://wordpress.org/plugins/sexy-contact-form/) - Responsive contact form builder for WordPress! [Live Demo](http://creative-solutions.net/wordpress/creative-contact-form/demo)
 > * [GSpeech](http://creative-solutions.net/wordpress/gspeech)
 
 
