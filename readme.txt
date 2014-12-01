@@ -18,7 +18,7 @@ It is packed with a live-preview wizard to create fantastic sliders in a matter 
 ### Useful Links:
 > * [Live Demo](http://creative-solutions.net/wordpress/creative-image-slider/demo) 
 > * [Homepage](http://creative-solutions.net/wordpress/creative-image-slider)
-> * [Support Forum](http://creative-solutions.net/forum/creative-image-slider-wordpress/)
+> * [Support Forum](http://forum.creative-solutions.net/creative-image-slider-wordpress/)
 > * [Documentation](http://creative-solutions.net/wordpress/creative-image-slider/documentation)
 
 
