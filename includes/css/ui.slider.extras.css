@@ -48,6 +48,16 @@
 	left: 40%;
 	margin-left: -7px;
 }
+.ui-slider_inner .ui-state-active .ui-slider-tooltip_lite {
+	bottom: 4.5em;
+	display: block;
+	width: 8em;
+	padding: .3em .2em .4em;
+	margin-left: -3.7em;
+	position: absolute;
+	text-align: center;
+	font-size: .9em;
+}
 .ui-slider .ui-slider-tooltip .ui-tooltip-pointer-down-inner {
 	border-left: 6px dashed transparent; 
 	border-right: 6px dashed transparent;
