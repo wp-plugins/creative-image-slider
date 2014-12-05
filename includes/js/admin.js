@@ -108,6 +108,23 @@ $(document).ready(function() {
 		}
 		wpcis_check_the_selection();
 	});
+
+	//recreate task
+	$("#wpcis_recreate_tmb").click(function(e) {
+		e.preventDefault();
+		var l = parseInt($('.wpcis_row_ch:checked').length);
+		if(l > 5) {
+			var id = $('.wpcis_row_ch:checked').first().val();
+			var url_part1 =$("#wpcis_form").attr("action");
+			var url = url_part1 + '&act_sub=edit&id=' + id;
+			window.location.replace(url);
+			return false;
+		}
+		else {
+			alert('Please first make a selection from the list');
+			return false;
+		}
+	});
 	
 	function wpcis_check_the_selection() {
 		var l = parseInt($('.wpcis_row_ch:checked').length);
