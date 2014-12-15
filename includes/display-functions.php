@@ -264,6 +264,8 @@ function wpcis_render_slider($slider_id) {
 			echo '<div class="cis_images_holder" style="height: '.$cis_item_height.'px !important;">';
 		
 			$items_css = '';
+			$items_css_predefined = '<style type="text/css">';
+			$items_css_postdefined = '</style>';
 			$loader_color_class = 'cis_row_item_loader_color1';
 			foreach( $cis_options[$first_key] as $cis_index => $image_info) {
 				//get image
