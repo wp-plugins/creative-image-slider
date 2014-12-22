@@ -30,6 +30,7 @@ $(document).ready(function() {
 		$("#wpcis_form").submit();
 		return false;
 	});
+
 	//publish list task
 	$("#wpcis_publish_list").click(function(e) {
 		e.preventDefault();
@@ -58,6 +59,16 @@ $(document).ready(function() {
 			return false;
 		}
 	});
+
+	//publish task async // extra rule
+	$(".wpcis_publish_async").click(function() {
+		var id = $(this).attr("wpcis_id");
+		$("#wpcis_def_id").val(id);
+		$("#wpcis_task").val('publish');
+		$("#wpcis_form").submit();
+		return false;
+	});
+	
 	//edit list task
 	$("#wpcis_edit").click(function(e) {
 		e.preventDefault();
