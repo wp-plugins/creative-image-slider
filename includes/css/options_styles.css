@@ -278,6 +278,22 @@
 	filter:alpha(opacity=50);
 	display: none;
 }
+#shadow_holder
+{
+	top:0;
+	left:0;
+	position: absolute;
+	z-index: 130;
+	background-color: black;
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	display: none;
+
+	-webkit-transition:  background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+	-moz-transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+	-o-transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+	transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+}
 
 #edit_menu_data {
 	position: relative;
