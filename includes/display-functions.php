@@ -241,6 +241,9 @@ function wpcis_render_slider($slider_id) {
 			$cis_popup_autoplay_time = (int) $cis_options_value->popup_autoplay_time;
 			// end section
 
+			//extra
+			$cis_popup_autoplay_time_extra = $cis_popup_autoplay_time == '' ? 1 : $cis_popup_autoplay_time;
+
 			$cis_popup_open_event = (int) $cis_options_value->popup_open_event;
 		
 			ob_start();
