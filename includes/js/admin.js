@@ -120,6 +120,16 @@ $(document).ready(function() {
 		wpcis_check_the_selection();
 	});
 
+
+	//reorder task async // extra rule
+	$(".wpcis_reorder_async").click(function() {
+		var id = $(this).attr("wpcis_id");
+		$("#wpcis_def_id").val(id);
+		$("#wpcis_task").val('publish');
+		$("#wpcis_form").submit();
+		return false;
+	});
+
 	//recreate task
 	$("#wpcis_recreate_tmb").click(function(e) {
 		e.preventDefault();
