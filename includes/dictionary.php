@@ -175,6 +175,8 @@ $slider_dictionary['COM_CREATIVEIMAGESLIDER_MARGIN_LEFT'] = "Margin Left";
 $slider_dictionary['COM_CREATIVEIMAGESLIDER_MARGIN_RIGHT'] = "Margin Right";
 $slider_dictionary['COM_CREATIVEIMAGESLIDER_ARROW_OPTIONS_TOOLTIP'] = "Arrows Tooltip";
 
+$slider_dictionary['COM_CREATIVEIMAGESLIDER_ARROW_OPTIONS_NAVBAR'] = "Arrows Navigation(admin page)";
+
 $slider_dictionary['COM_CREATIVEIMAGESLIDER_ARROW_OPTIONS_LABEL'] = "Arrow Options";
 $slider_dictionary['COM_CREATIVEIMAGESLIDER_ARROW_TEMPLATE_LABEL'] = "Template";
 $slider_dictionary['COM_CREATIVEIMAGESLIDER_ARROW_TEMPLATE_DESCRIPTION'] = "Slider arrows template. Same for popup!";
