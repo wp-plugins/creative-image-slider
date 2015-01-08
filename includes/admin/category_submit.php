@@ -16,10 +16,13 @@ if($id == 0) {
 			$_POST['name'], $_POST['published']
 	) );
 	
+	$last_task = '';
 	$insrtid = (int) $wpdb->insert_id;
 	if($insrtid != 0) {
-		if($task == 'save')
+		if($task == 'save') {
 			$redirect = "admin.php?page=cis_categories&act=edit&id=".$insrtid;
+			$last_task = 'save';
+		}
 		elseif($task == 'save_new')
 			$redirect = "admin.php?page=cis_categories&act=new";
 		else
