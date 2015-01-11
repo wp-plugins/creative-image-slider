@@ -17,6 +17,7 @@
 	font-weight: normal;
 	font-size: 22px;
 	text-align: center;
+	overflow: hidden;
 }
 .wpsxp_ext_name {
 	display: block;
