@@ -13,7 +13,7 @@ Creative Image Slider is a responsive jQuery image slider with amazing visual ef
 == Description ==
 
 [Creative Image Slider](http://creative-solutions.net/wordpress/creative-image-slider) is a jQuery image slider with amazing visual effects. It has integrated Creative Popup wizard, to make the slider more attractive!
-It is packed with a live-preview wizard to create fantastic sliders in a matter of seconds without coding. Over 21,500+ sites are already using Creative Image Slider.
+It is packed with a live-preview wizard to create fantastic sliders in a matter of seconds without coding. Over 22,000+ sites are already using Creative Image Slider.
 
 ### Useful Links:
 > * [Live Demo](http://creative-solutions.net/wordpress/creative-image-slider/demo) 
@@ -44,6 +44,7 @@ It is packed with a live-preview wizard to create fantastic sliders in a matter 
 
 1. Upload the entire creative-image-slider folder to the /wp-content/plugins/ directory, or upload the .zip package through Plugins->Add New->Upload.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
+3. Enjoy the result!
 
 You will find 'Creative Image Slider' menu in your WordPress admin panel.
 
