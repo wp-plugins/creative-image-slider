@@ -80,6 +80,15 @@ label {
 	background-position: left top;
 }
 
+.cs_hidden_extra_icon {
+	width: 32px;
+	height: 33px;
+	display: block;
+	float: left;
+	margin: 0 6px 0 6px;
+	text-decoration: none !important;
+}
+
 
 .icon_alternative_state {
 	width: 32px;
