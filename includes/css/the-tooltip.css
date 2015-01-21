@@ -311,3 +311,18 @@ background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 5
 .the-tooltip.sunset > .tooltip_inner {
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 }
+
+.the-tooltip.gray1 > .tooltip_inner {
+  background-color: rgba(51, 51, 51, 0.88);
+  border-color: #ddfdfd;
+  color: #ffffff;
+}
+.the-tooltip.gray1 > .tooltip_inner:after {
+  border-color: rgba(14, 77, 77, 0.95);
+}
+.the-tooltip.gray1 > .tooltip_inner:before {
+  border-color: #ddfdfd;
+}
+.the-tooltip.gray1 > .tooltip_inner {
+  text-shadow: 0 1px 0 #555;
+}
