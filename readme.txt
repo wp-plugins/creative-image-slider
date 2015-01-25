@@ -13,7 +13,7 @@ Creative Image Slider is a responsive jQuery image slider with amazing visual ef
 == Description ==
 
 [Creative Image Slider](http://creative-solutions.net/wordpress/creative-image-slider) is a jQuery image slider with amazing visual effects. It has integrated Creative Popup wizard, to make the slider more attractive!
-It is packed with a live-preview wizard to create fantastic sliders in a matter of seconds without coding. Over 22,000+ sites are already using Creative Image Slider.
+It is packed with a live-preview wizard to create fantastic sliders in a matter of seconds without coding. Over 23,600+ sites are already using Creative Image Slider.
 
 ### Useful Links:
 > * [Live Demo](http://creative-solutions.net/wordpress/creative-image-slider/demo) 
@@ -26,11 +26,11 @@ It is packed with a live-preview wizard to create fantastic sliders in a matter 
 > * Creative horizontal scrolling. It uses horizontal scrolling, to make the slider more creative!
 > * Creative Popup. It has integrated Creative Popup Wizard, to make it more attractive... *[See Demo](http://creative-solutions.net/wordpress/creative-image-slider/demo)*
 > * Place sliders anywhere. You can use shortcode, to insert sliders anywhere in content!
-> * Live-preview wizard. It is packed with a live-preview wizard to create fantastic sliders in a matter of seconds without coding
+> * Live-preview wizard. It is packed with a live-preview wizard to create fantastic sliders in a matter of seconds without coding!
 > * Flexible auto-play. Two auto-play types: Evenly scrolling, and by steps. Customizable speed, scroll delay, start delay etc.
 > * Flexible overlay. You can customize overlay of each item: change text styles, button styles, overlay opacity etc.
 > * Creative arrows. It comes with 45 arrow types, and flexible customization tool!
-> * Creative button styles. It comes with 6 button styles, and more than 30 button icons.
+> * Creative button styles. It comes with 6 button styles, and more than 30 button icons!
 > * Very easy to install and configure. You can install it, and make it work in 5 minutes...
 
 ### Other Creative Plugins:
