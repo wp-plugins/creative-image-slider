@@ -267,4 +267,8 @@ $slider_dictionary['COM_CREATIVEIMAGESLIDER_POPUP_IMAGE_LABEL'] = "Popup Image";
 $slider_dictionary['COM_CREATIVEIMAGESLIDER_POPUP_IMAGE_DESCRIPTION'] = "Upload popup image. If empty, main item image will be used.";
 $slider_dictionary['COM_CREATIVEIMAGESLIDER_POPUP_IMGURL_LABEL'] = "Popup Image URL";
 $slider_dictionary['COM_CREATIVEIMAGESLIDER_POPUP_IMGURL_DESCRIPTION'] = "Load image from WEB. Use when Popup Image is empty. If empty, main item image will be used.";
+
+$slider_dictionary['COM_CREATIVEIMAGESLIDER_OVERLAY_STATE_2'] = "Overlay Option inactive state";
+$slider_dictionary['COM_CREATIVEIMAGESLIDER_LABEL_STATE_2'] = "Label Parameters inactive state";
+
 ?>
