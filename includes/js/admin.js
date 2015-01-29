@@ -107,6 +107,10 @@ $(document).ready(function() {
 	$(".wpcis_select").change(function() {
 		$("#wpcis_form").submit();
 	});
+	//filter select
+	$(".wpcis_select_added").change(function() {
+		$("#wpcis_form").submit();
+	});
 	//filter search
 	$("#wpcis_filter_search_submit").click(function() {
 		$("#wpcis_form").submit();
