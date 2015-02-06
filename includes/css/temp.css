@@ -194,6 +194,20 @@ color: #333;
 	width: 600px;
 }
 
+
+.size_up_hovered {
+	width: 14px;
+	height: 12px;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	cursor: pointer;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+
+
 .answer_wrapper {
 	/*height: 0;*/
 	clear: both;
