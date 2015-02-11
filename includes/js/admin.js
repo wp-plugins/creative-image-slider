@@ -100,6 +100,22 @@ $(document).ready(function() {
 			alert('Please first make a selection from the list');
 			return false;
 		}
+	});	
+	//delete all task * Extra rule
+	$("#wpcis_delete_all").click(function(e) {
+		e.preventDefault();
+		var l = parseInt($('.wpcis_row_ch:checked').length);
+		if(l > 0) {
+			if(confirm('Delete selected items?')) {
+				$("#wpcis_task").val('delete');
+				$("#wpcis_form").submit();
+			}
+			return false;
+		}
+		else {
+			alert('Please first make a selection from the list');
+			return false;
+		}
 	});
 	
 	
