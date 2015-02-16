@@ -117,6 +117,23 @@ $(document).ready(function() {
 			return false;
 		}
 	});
+
+	//re-create list task // extra rule
+	$("#wpcis_recreate").click(function(e) {
+		e.preventDefault();
+		var l = parseInt($('.wpcis_recreate:checked').length);
+		if(l > 0) {
+			var id = $('.wpcis_recreate:checked').first().val();
+			var url_part1 =$("#wpcis_form").attr("action");
+			var url = url_part1 + '&act=edit&id=' + id;
+			window.location.replace(url);
+			return false;
+		}
+		else {
+			alert('Please first make a selection from the list');
+			return false;
+		}
+	});
 	
 	
 	//filter select
