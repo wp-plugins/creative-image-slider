@@ -271,4 +271,7 @@ $slider_dictionary['COM_CREATIVEIMAGESLIDER_POPUP_IMGURL_DESCRIPTION'] = "Load i
 $slider_dictionary['COM_CREATIVEIMAGESLIDER_OVERLAY_STATE_2'] = "Overlay Option inactive state";
 $slider_dictionary['COM_CREATIVEIMAGESLIDER_LABEL_STATE_2'] = "Label Parameters inactive state";
 
+$slider_dictionary['COM_CREATIVEIMAGESLIDER_MAX_LIMIT_MESSAGE_LABEL'] = "The max limit exceeded!";
+$slider_dictionary['COM_CREATIVEIMAGESLIDER_MAX_LIMIT_MESSAGE_DESCRIPTION'] = "Use global congigration valuse";
+
 ?>
