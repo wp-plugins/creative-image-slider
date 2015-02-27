@@ -65,11 +65,11 @@ Use it and be happy!
 
 == Screenshots == 
 
-1. Creative Popup
-2. Creative Popup
-3. Creative Popup
+1. Creative Popup example
+2. Creative Popup example
+3. Creative Popup example
 4. Slider View
-5. Creative Popup
+5. Creative Popup example
 6. Flexible Options
 7. Live Preview Wizard
 8. Creative Loading
