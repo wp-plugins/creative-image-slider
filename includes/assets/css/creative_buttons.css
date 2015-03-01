@@ -116,6 +116,21 @@
 	color: #fff !important;
 	background-color: #01297B !important;
 }
+/*gray-lite*/
+.creative_btn-gray-lite {
+	color: #fff !important;
+	text-shadow: 0 1px 1px rgba(0,0,0,1) !important;
+	background-color: #525252 !important;
+	background-image: -moz-linear-gradient(top,#B0B0B0,#dddddd) !important;
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#B0B0B0),to(#dddddd)) !important;
+	background-image: -webkit-linear-gradient(top,#B0B0B0,#dddddd) !important;
+	background-image: -o-linear-gradient(top,#B0B0B0,#dddddd) !important;
+	background-image: linear-gradient(to bottom,#B0B0B0,#dddddd) !important;
+	background-repeat: repeat-x !important;
+	border: 1px solid #bbb !important;
+	border-color: #e6e6e6 #e6e6e6 #bfbfbf !important;
+	border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25) !important;
+}
 /*raver*/
 .creative_btn-raver {
 	color: #fff !important;
