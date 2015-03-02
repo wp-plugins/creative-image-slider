@@ -248,6 +248,18 @@ $(document).ready(function() {
 		else
 			return false;
 	};
+
+	//move all elements
+	$("#wpcis_move_all").click(function() {
+		if($(this).is(":checked")) {
+			$('.wpcis_row_ch').attr('checked',true);
+		}
+		else {
+			$('.wpcis_row_ch').attr('checked',false);
+		}
+		
+		wpcis_check_the_selection();
+	});
 	
 	//////////////////////////////////////////////////Table list sortable///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	var wpcis_selected_tr_id = 0;
