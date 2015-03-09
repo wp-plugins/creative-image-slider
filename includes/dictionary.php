@@ -274,4 +274,6 @@ $slider_dictionary['COM_CREATIVEIMAGESLIDER_LABEL_STATE_2'] = "Label Parameters 
 $slider_dictionary['COM_CREATIVEIMAGESLIDER_MAX_LIMIT_MESSAGE_LABEL'] = "The max limit exceeded!";
 $slider_dictionary['COM_CREATIVEIMAGESLIDER_MAX_LIMIT_MESSAGE_DESCRIPTION'] = "Use global congigration valuse";
 
+$slider_dictionary['COM_CREATIVEIMAGESLIDER_NUM_IMAGES_ROW'] = "Items Per Row";
+
 ?>
