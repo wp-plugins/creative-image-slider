@@ -28,6 +28,12 @@
 	background-image: url("../images/alt_menu_mainitem_bg.gif");
 	position: relative;
 }
+.menus_header_inactive
+{
+	height: 20px;
+	background-image: url("../images/alt_menu_mainitem_bg.gif");
+	position: relative;
+}
 
 .menus_header .load_countries_data {
 	position: absolute;
