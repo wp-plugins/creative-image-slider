@@ -276,4 +276,8 @@ $slider_dictionary['COM_CREATIVEIMAGESLIDER_MAX_LIMIT_MESSAGE_DESCRIPTION'] = "U
 
 $slider_dictionary['COM_CREATIVEIMAGESLIDER_NUM_IMAGES_ROW'] = "Items Per Row";
 
+$slider_dictionary['COM_CREATIVEIMAGESLIDER_IMG_MAX_SIZE'] = "Please select max image size";
+$slider_dictionary['COM_CREATIVEIMAGESLIDER_IMG_MIN_SIZE'] = "Please select min image size";
+
+
 ?>
