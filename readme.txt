@@ -68,9 +68,9 @@ Use it and be happy!
 1. Creative Popup example
 2. Creative Popup example
 3. Creative Popup example
-4. Slider View
+4. Slider View : Front Page
 5. Creative Popup example
-6. Flexible Options
+6. Flexible Options : Easy navigation
 7. Live Preview Wizard
 8. Creative Loading
 9. Front View
