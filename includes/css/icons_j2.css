@@ -20,6 +20,12 @@
 	height: 48px;
 	display: block;
 }
+#creative_icon_extra { 
+	background-image: url("../images/icon-extra.png");
+	width: 48px;
+	height: 48px;
+	display: block;
+}
 #sexy_polls_link:hover { 
 	background-image: url("../images/icon-48-sexy_polls.png");
 	width: 48px;
