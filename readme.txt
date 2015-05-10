@@ -29,8 +29,8 @@ It is packed with a live-preview wizard to create fantastic sliders in a matter 
 > * Live-preview wizard. It is packed with a live-preview wizard to create fantastic sliders in a matter of seconds without coding!
 > * Flexible overlay. You can customize overlay of each item: change text styles, button styles, overlay opacity etc.
 > * Flexible auto-play. Two auto-play types: Evenly scrolling, and by steps. Customizable speed, scroll delay, start delay etc.
-> * Creative arrows. It comes with 45 arrow types, and flexible customization tool!
 > * Creative button styles. It comes with 6 button styles, and more than 30 button icons!
+> * Creative arrows. It comes with 45 arrow types, and flexible customization tool!
 > * Very easy to install and configure. You can install it, and make it work in 5 minutes!
 
 ### Other Creative Plugins:
