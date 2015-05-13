@@ -326,3 +326,23 @@ background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 5
 .the-tooltip.gray1 > .tooltip_inner {
   text-shadow: 0 1px 0 #555;
 }
+
+ /*extra rule*/
+.the-tooltip_enabled {
+  border: solid 1px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+  font-size: 14px;
+  padding: 7px 13px 7px 12px;
+  position: absolute;
+  -webkit-transition: 0.2s 0s;
+  -moz-transition: 0.2s 0s;
+  -ms-transition: 0.2s 0s;
+  -o-transition: 0.2s 0s;
+  transition: 0.2s 0s;
+  width: 250px;
+  z-index: 999;
+  line-height: 24px;
+}
