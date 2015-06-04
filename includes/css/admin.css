@@ -41,6 +41,15 @@ ul#wpcis-toolbar-links li a{
     float: left;
     margin-top: 7px;
 }
+/*extra*/
+ul#wpcis-toolbar-links_inactive li a{ 
+    text-decoration: none;
+    text-shadow: 0 1px 1px #FFF;
+    line-height: 16px;
+    white-space: nowrap;
+    float: left;
+    margin-top: 7px;
+}
 
 #wpcis_logo {
 	 background-image: url(../images/Box_tool_sexycontactform_32.png);
