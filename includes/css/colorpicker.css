@@ -160,3 +160,13 @@
 .colorpicker_slider {
 	background-position: bottom;
 }
+
+/*extra*/
+.colorpicker_new_color_updated {
+	position: absolute;
+	width: 60px;
+	height: 30px;
+	left: 213px;
+	top: 13px;
+	background: #f00;
+}
