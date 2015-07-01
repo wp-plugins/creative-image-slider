@@ -26,11 +26,11 @@ It is packed with a live-preview wizard to create fantastic sliders in a matter 
 > * Creative horizontal scrolling. It uses horizontal scrolling, to make the slider more creative!
 > * Creative Popup. It has integrated Creative Popup Wizard, to make it more attractive... *[See Demo](http://creative-solutions.net/wordpress/creative-image-slider/demo)*
 > * Place sliders anywhere. You can use shortcode, to insert sliders anywhere in content!
+> * Flexible auto-play. Two auto-play types: Evenly scrolling, and by steps. Customizable speed, scroll delay, start delay etc.
 > * Live-preview wizard. It is packed with a live-preview wizard to create fantastic sliders in a matter of seconds without coding!
 > * Flexible overlay. You can customize overlay of each item: change text styles, button styles, overlay opacity etc.
-> * Flexible auto-play. Two auto-play types: Evenly scrolling, and by steps. Customizable speed, scroll delay, start delay etc.
-> * Creative button styles. It comes with 6 button styles, and more than 30 button icons!
 > * Creative arrows. It comes with 45 arrow types, and flexible customization tool!
+> * Creative button styles. It comes with 6 button styles, and more than 30 button icons!
 > * Very easy to install and configure. You can install it, and make it work in 5 minutes!
 
 ### Other Creative Plugins:
