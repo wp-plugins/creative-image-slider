@@ -43,10 +43,10 @@ It is packed with a live-preview wizard to create fantastic sliders in a matter 
 == Installation ==
 
 1. Upload the entire creative-image-slider folder to the /wp-content/plugins/ directory, or upload the .zip package through Plugins->Add New->Upload.
-2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. Enjoy the result!
+2. Activate the plugin via 'Plugins' menu in WordPress.
+3. Enjoy the result.
 
-You will find 'Creative Image Slider' menu in your WordPress admin panel.
+You will find "Creative Image Slider"'" menu in your WordPress admin panel.
 
 Use it and be happy!
 
