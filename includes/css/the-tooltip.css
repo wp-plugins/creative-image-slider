@@ -353,3 +353,16 @@ background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 5
   -o-transition: 0.2s 0s;
   transition: 0.2s 0s;
 }
+
+/*yellow dark 1 extra*/
+.the-tooltip.yellow_dark_1 > .tooltip_inner {
+  background-color: #003366;
+  border-color: #000d1a;
+  color: #ffffff;
+}
+.the-tooltip.yellow_dark_1 > .tooltip_inner:after {
+  border-color: #003366;
+}
+.the-tooltip.yellow_dark_1 > .tooltip_inner:before {
+  border-color: #000d1a;
+}
