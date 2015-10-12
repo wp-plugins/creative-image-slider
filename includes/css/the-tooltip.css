@@ -381,4 +381,10 @@ background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 5
   display: block;
   margin: 0 20px 0 20px;
   position: absolute;
+
+    -webkit-transition: 0.2s 0s;
+  -moz-transition: 0.2s 0s;
+  -ms-transition: 0.2s 0s;
+  -o-transition: 0.2s 0s;
+  transition: 0.2s 0s;
 }
