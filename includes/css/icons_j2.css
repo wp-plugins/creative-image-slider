@@ -146,3 +146,10 @@ label {
 #twoglux_bottom_link {
 	padding-top: 15px;
 }
+
+.home_link_item_cis:hover {
+	background:transparent url("../images/project_32.png") left 1px no-repeat;
+	border-radius: 12px;
+	background-color: #fbfbfb;
+	border: 1px groove #bbb;
+}
