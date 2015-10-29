@@ -388,6 +388,11 @@
 	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.3),0 1px 2px rgba(0,0,0,0.3) !important;
 	box-shadow: inset 0 1px 0 rgba(255,255,255,0.3),0 1px 2px rgba(0,0,0,0.3) !important;
 
+		-webkit-transition: background-position 0s linear !important;
+	-moz-transition: background-position 0s linear !important;
+	-o-transition: background-position 0s linear !important;
+	transition: background-position 0s linear !important;
+
 }
 
 .creative_icon-cis {
