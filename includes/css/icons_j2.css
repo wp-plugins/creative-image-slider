@@ -153,3 +153,11 @@ label {
 	background-color: #fbfbfb;
 	border: 1px groove #bbb;
 }
+
+.icon-cis_added-sexypolling { background-image: url("../images/icon-48-sexy_polls.png"); }
+.icon-cis_added-sexypolls { background-image: url("../images/icon-48-sexy_polls.png"); }
+.icon-cis_added-sexytemplates { background-image: url("../images/template.png"); }
+.icon-cis_added-sexyanswers { background-image: url("../images/answer.png"); }
+.icon-cis_added-sexycategories { background-image: url("../images/category.png"); }
+.icon-cis_added-sexystatistics { background-image: url("../images/statistics1.png"); }
+.icon-cis_added-manage { background-image: url("../images/icon-wheel.png");text-align: left; }
