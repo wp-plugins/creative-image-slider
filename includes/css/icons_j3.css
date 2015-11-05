@@ -124,3 +124,13 @@ border-radius: 7px;
 	padding-top: 14px;
 }
 
+.twoglux_ext_added_icon {
+	width: 32px;
+	height: 33px;
+	display: block;
+	float: left;
+	margin: 0 6px 0 6px;
+	text-decoration: none !important;
+	outline: none !important;
+}
+
